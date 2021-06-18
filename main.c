@@ -4,23 +4,23 @@
 
 int main()
 {
-  int paulisgay;
+  int tetanisgay;
 
-  for (paulisgay = 0 ; paulisgay < 2 ; )
+  for (tetanisgay = 0 ; tetanisgay < 2 ; )
   {
-    printf("Paul est-il gay?\n  Oui: 1\n  Non: 2\n");
-    scanf("%d",&paulisgay);
-    if(paulisgay == 1)
+    printf("Tetan est-il gay?\n  Oui: 1\n  Non: 2\n");
+    scanf("%d",&tetanisgay);
+    if(tetanisgay == 1)
     {
-      printf("Paul est gay, ce qui est normal quoi non?");
-      paulisgay =3;
+      printf("Tetan est gay, ce qui est normal quoi non?");
+      tetanisgay =3;
     }
-    else if(paulisgay == 2)
+    else if(tetanisgay == 2)
     {
-      printf("Paul est forcement gay, il y un probleme tu peux recommencer jusqu'à avoir le bon résultat \n");
+      printf("Tetan est forcement gay, il y un probleme tu peux recommencer jusqu'à avoir le bon résultat \n");
       sleep(5);
       system("clear");
-      paulisgay = 3;
+      tetanisgay = 3;
       main();
     }
   }
