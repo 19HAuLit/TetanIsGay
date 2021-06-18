@@ -1,0 +1,2 @@
+Voici un program qui vous dit si Paul est gay ou pas.
+Il y a que le source code, vous de le modifier pour savoir si vos pote sont gay ou pas.
